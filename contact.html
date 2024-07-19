@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>my portfolio</title>
+  <meta name="description" content="テキスト">
+  <meta name="keywords" content="ポートフォリオ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=”robots” content=”noindex”>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="正規ページURL（https://〜）">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header id="header" class="header">
+    <div class="header_wrapper">
+
+      <div class="header__logo">
+        <a href="index.html">
+          <img class="header__img" src="img/logo.png" alt="">
+        </a>
+      </div>
+
+      <div class="header__navArea">
+        <div class="header__nav-inner">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="works.html">Works</a></li>
+              <!-- <li><a href="#service">Service</a></li> -->
+            </ul>
+          </nav>
+
+          <div class="button--small button-contact-s">
+            <a href="contact.html">
+              contact
+            </a>
+          </div>
+        </div>
+
+        <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <div class="each-page-content-wrapper">
+      <h2 class="section__title">
+        <span class="en">Contact</span>
+        <span class="ja">お問合せ</span>
+      </h2>
+      <div class="wrapper">
+        <ul class="contact-text">
+          <li>お立ち寄りいただきありがとうございます。</li>
+          <li>下記の項目をご入力ください。</li>
+        </ul>
+
+        <dl class="contact-container">
+          <dt>
+            <label for="name">お名前</label>
+          </dt>
+          <dd>
+            <input type="text" id="name" name="name" autocomplete="given-name" required>
+          </dd>
+          <dt>
+            <label for="email">メールアドレス</label>
+          </dt>
+          <dd>
+            <input type="email" id="email" name="e-mail" autocomplete="email" required>
+          </dd>
+          <dt>
+            <label for="message">お問合内容</label>
+          </dt>
+          <dd>
+            <textarea class="message-box" id="message" name="message" required>
+      </textarea>
+          </dd>
+        </dl>
+        <div class="btn">
+          <input id="confirm-btn" value="確認する">
+        </div>
+
+
+      </div>
+    </div><!-- each-page-content-wrapper -->
+  </main>
+
+
+  <footer class="footer">
+    <a href="#header" class="toTop-btn-area" aria-label="Back to top">
+      <img src="img/to-top-navy.png" alt="トップへ戻るボタンです。">
+    </a>
+    <p><small>&copy;2024 tomoko.web</small></p>
+
+  </footer>
+</body>
+
+</html>
