@@ -180,8 +180,6 @@ padding-bottom: 88px;
 }
 
 
-
-
 .about,
 .works,
 .service {
@@ -317,7 +315,7 @@ padding-bottom: 88px;
     right: 0;
     width: 30px;
     height: 2px;
-    background-color: $fontColor;
+    background-color: $accentColor;
     transition: all 0.5s;
 
     &:nth-of-type(1) {

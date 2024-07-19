@@ -264,7 +264,7 @@ img {
   right: 0;
   width: 30px;
   height: 2px;
-  background-color: #141414;
+  background-color: #363b68;
   transition: all 0.5s;
 }
 .hamburger-menu span:nth-of-type(1) {
