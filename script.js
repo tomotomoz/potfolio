@@ -31,13 +31,13 @@ window.addEventListener('scroll', () => {
   console.log(window.scrollY);
 });
 
-toTop.addEventListener('click', () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-  console.log('Scroll to top');
-});
+// toTop.addEventListener('click', () => {
+//   window.scrollTo({
+//     top: 0,
+//     behavior: 'smooth'
+//   });
+//   console.log('Scroll to top');
+// });
 
 
 // / swiper
