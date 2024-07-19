@@ -164,10 +164,20 @@ img {
   height: 13px;
   background-color: #363b68;
 }
+@media screen and (max-width: 680px) {
+  .section__title::after {
+    top: 65px;
+  }
+}
 
 .en {
   font-size: 4.8rem;
   display: block;
+}
+@media screen and (max-width: 680px) {
+  .en {
+    font-size: 4rem;
+  }
 }
 
 .ja {
@@ -372,8 +382,8 @@ img {
   }
 }
 .works__content--right h3 {
-  font-size: 1.8em;
-  margin-bottom: 24px;
+  font-size: 2rem;
+  margin-bottom: 16px;
 }
 .works__content--right p {
   text-align: justify;
@@ -481,7 +491,7 @@ img {
 }
 
 .service__content--title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-bottom: 16px;
 }
 
@@ -703,11 +713,12 @@ input[type=email],
 
 .description-text-wrapper {
   background-color: #bfbfc0;
-  padding: 24px 40px;
+  padding: 24px;
 }
 
 .description-text {
   margin-bottom: 40px;
+  text-align: justify;
 }
 
 .site-address {
